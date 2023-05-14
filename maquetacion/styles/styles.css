@@ -1,0 +1,61 @@
+/* codigo de la etiqueta style en el html*/
+body {
+    margin: 0;
+}
+p {
+    margin-right: 40px;
+}
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+button.redondo {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+
+/* mi codigo */
+
+
+.paralax img{
+    width: 100%;
+    /* background-image: url(twp-home.jpg); */
+    background-size: center;
+    background-attachment: fixed;
+    /* height: 700px; */
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
