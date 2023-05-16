@@ -9,11 +9,12 @@
 
 </head>
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
-        <div id="header-left">
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="header-left">
             <img src="./assets/logo-navBar.svg" alt="navBar-Icon">
         </div>
-        <div id="header-right" style="display: flex; align-items: center;">
+        <div class="header-right-bigScreens">
             <p>Nosotros</p>
             <p>Programas</p>
             <p>Capaciontaciones</p>
@@ -21,37 +22,47 @@
             <p>Contacto</p>
             <button class="redondo">Sumate +</button>
         </div>
+        <div class="header-right-smallScreens">
+            <!-- buscar iconos -->
+            <h3>lu</h3>
+            <h3>ope</h3>
+        </div>
     </div>
-    <div id="introduction" style="padding: 48px;">
+
+    <!-- main -->
+    <div id="introduction">
         <div id="introduction-text">
             <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
         </div>
         <div id="introduction-actions" style="margin-top: 25px;">
             <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+            <button class="redondo violeta" style="margin-left: 14px;">Sumate +</button>
         </div>
     </div>
 
     <!-- .impacto + contador -->
-    <h2>. Impacto</h2>
-    <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la 
-        comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado 
-        hacia el sector social.</p>
-
-    <div class="">
-        <div class="">58</div>
-        <div class="">Localidades</div>
-    </div>
-    <div class="">
-        <div>
-            <div class="">+</div>
-            <div class="">50</div>
+    <div class="impacto-background-black">
+        <div class="impacto-first-part">
+            <h2>. Impacto</h2>
+            <p class="impacto-text">Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la 
+                comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado 
+                hacia el sector social.</p>
         </div>
-        <div class="">Mentores</div>
-    </div>
-    <div class="">
-        <div class="">301</div>
-        <div class="">Participantes</div>
+        <div class="impacto-second-part">
+            <div class="impacto-container">
+                <div class="impacto-big-number">58</div>
+                <div class="impacto-small-word">Localidades</div>
+    
+                <div class="impacto-container-plus">
+                    <div class="impacto-big-number impacto-big-sign">+</div>
+                    <div class="impacto-big-number">50</div>
+                </div>
+                <div class="impacto-small-word">Mentores</div>
+    
+                <div class="impacto-big-number">301</div>
+                <div class="impacto-small-word">Participantes</div>
+            </div>
+        </div>
     </div>
 
     <!-- Fondo paralax -->
@@ -228,33 +239,33 @@
     <!-- footer -->
     <!-- Esta dividido en 5 partes,  en pc todo a lo ancho, en 5 mini columnas, 
         y en mobile en 1 columna, con 5 bloques adentro-->
-    <div>
-        <div style="background-color: black;">
+    <div class="footer-container">
+        <div class="footer-icon">
             <img src="./assets/technology-with-purpose-white.svg" alt="logo-white">
         </div>
 
-        <div>
+        <div class="footer-text">
             <p>Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
         </div>
 
-        <div>
-            <a href="">NOSOTROS</a>
-            <a href="">CONTACTO</a>
+        <div class="footer-small-container">
+            <a href="" class="link">NOSOTROS</a>
+            <a href="" class="link">CONTACTO</a>
         </div>
 
-        <div>
-            <a href="">PROGRAMAS</a>
-            <a href="">CAPACITACIONES</a>
+        <div class="footer-small-container">
+            <a href="" class="link">PROGRAMAS</a>
+            <a href="" class="link">CAPACITACIONES</a>
         </div>
 
-        <div>
+        <div class="footer-small-container">
             <div>
-                ig icono
-                <a href="">INSTAGRAM</a>
+                Ig
+                <a href="" class="link">INSTAGRAM</a>
             </div>
             <div>
-                ig linkedin
-                <a href="">LINKEDIN</a>
+                Ln
+                <a href="" class="link">LINKEDIN</a>
             </div>
         </div>
 

@@ -1,61 +1,194 @@
-/* codigo de la etiqueta style en el html*/
+/* variable de colores */
+:root {
+    --color-violeta: #6b53f0;
+    --color-negro: #201b24;
+    --color-blanco: #ddd;
+    --color-gris: #888;
+}
+
+
+/* genericos */
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-p {
-    margin-right: 40px;
-}
-h1 {
-    margin: 0px 400px;
-    text-align: center;
-}
+
 button.redondo {
     background-color: white;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 25px;
     padding: 0px 20px;
-    height: 32px;
+    height: 42px;
 }
+
+button.violeta {
+    border: 2px solid #6b53f0;
+    color: var(--color-violeta);
+}
+
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 32px;
+}
+
+img{
+    width: 100%;
+    background-size: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* NAVBAR */
+.navbar {
+    border-bottom: 1px solid gray; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    /* width: 120%; */
+    /* background-color: tomato; */
+    /* width: 100vw; */
+}
+
+.header-left {
+    margin-right: 40px;
+}
+.header-left img {
+    width: 170px;
+    height: 85px;
+}
+
+.header-right-bigScreens {
+    display: none;
+}
+
+.header-right-smallScreens {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-right-smallScreens h3 {
+    padding: 0 10px;
+}
+
+/* MAIN */
+#introduction-text{
+    text-align: center;
+    padding: 80px 30px 10px 30px;
+}
+
 div#introduction-actions {
     display: flex;
     justify-content: center;
 }
 
-/* mi codigo */
+div#introduction-actions {
+    margin-bottom: 100px;
+}
 
 
-.paralax img{
-    width: 100%;
-    /* background-image: url(twp-home.jpg); */
-    background-size: center;
-    background-attachment: fixed;
-    /* height: 700px; */
-    background-size: cover;
+/* .IMPACTO */
+
+.impacto-background-black {
+    color: var(--color-blanco);
+    background-color: var(--color-negro);
+    padding-top: 120px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+
+.impacto-text {
+    font-size: 17px;
+}
+
+.impacto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 60px 0;
+}
+
+.impacto-container-plus {
+    display: flex;
+    align-items: center;
+}
+
+.impacto-big-number{
+    font-size: 55px;
+    font-weight: 900;
+    margin: 40px 0 5px 0; 
+}
+
+.impacto-big-sign{
+    color: var(--color-violeta);
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.impacto-small-word {
+    color: var(--color-gris);
+}
+
+
+/* FONDO PARALAX */
+/* SOLO EN PANTALLAS GRANDES */
+.paralax {
+    display: none;
+}
+
+/* .PROGRAMAS */
+
+.programs {
+    margin: 50px 0;
+    padding: 20px;
 }
 
 
 
 
 
+/* .CAPACITACIONES */
 
+/* .EQUIPO */
 
+/* .ALIANZAS */
 
+/* FOOTER */
 
+.footer-container{
+    background-color: var(--color-negro);
+    color: var(--color-blanco);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 8px 80px 8px;
+}
 
+.footer-icon {
+    width: 200px;
+    height: 50px;
+    margin: 0px 20px 5px 30px;
+}
 
+.footer-text {
+    margin: 10px 10px 0px 30px;
+    font-size: 13px;
+    line-height: 18px;
+}
 
+.footer-small-container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px 15px 30px;
+}
+.link {
+    text-decoration: none;
+    color: var(--color-blanco);
+    font-size: 16px;
+    font-weight: 800;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
