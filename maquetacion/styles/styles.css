@@ -320,6 +320,13 @@ div#introduction-actions span{
 
 @media screen and (min-width: 768px) {
     /* NAVBAR */
+
+    .navbar {
+        position: fixed;
+        background-color: white;
+        width: 100%;
+    }
+
     .header-right-smallScreens{
         display: none;
     }
@@ -356,7 +363,86 @@ div#introduction-actions span{
     }
 
     
+    /* .IMPACTO */
+    .impacto-background-black{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .impacto-first-part{
+        width: 33%;
+    }
 
+    .impacto-second-part{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        margin: 0 0 0 50px;
+    }
+
+    .impacto-container {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* PARALAX */
+    .static-picture {
+        background-color: rgba(255, 255, 255, 0);
+        background-image: url("../assets/twp-home-paralax.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-width: 0px;
+        border-color: #d9d9d9;
+        border-style: solid;
+        background-size: cover;
+        background-attachment: fixed;
+        height: calc(100vh - 10rem);
+    }
+
+    /* PROGRAMAS */
+
+    .programs-title{
+        padding: 40px 0 0 40px;
+        margin-bottom: 0;
+    }
+
+    .programs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .xacademy-program-image {
+        padding: 10px;
+    }
+    
+    .programs-box2-img-container, .programs-box3 {
+        margin-top: 20px;
+        /* margin-left: 20px; */
+        /* padding: 30px 30px 10px 30px; */
+    }
+
+    .programs-box2-img-container img {
+        width: 200px;
+    }
+
+    .programs-box2-img-container p {
+        font-size: 15px;
+        line-height: 21px;
+        width: 85%;
+    }
+
+    .programs-box3 {
+        font-size: 15px;
+        line-height: 21px;
+        width: 76%;
+    }
+
+    .programs-box3 h4 {
+        width: 100%;
+    }
 }
 
 /* @media screen and (min-width: 1024px) {
