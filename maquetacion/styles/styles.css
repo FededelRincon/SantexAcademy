@@ -20,6 +20,11 @@ button.redondo {
     padding: 0px 20px;
     height: 42px;
 }
+button.redondo span {
+    margin-left: 10px;
+    /* display: inline-block; */
+    /* transform: scaleX(1.2) scaley(0.6);  */
+}
 
 button.violeta {
     border: 2px solid #6b53f0;
@@ -47,13 +52,11 @@ img{
     display: flex; 
     justify-content: space-around;
     align-items: center;
-    /* width: 120%; */
-    /* background-color: tomato; */
-    /* width: 100vw; */
 }
 
 .header-left {
     margin-right: 40px;
+    margin-left: 30px;
 }
 .header-left img {
     width: 170px;
@@ -66,11 +69,14 @@ img{
 
 .header-right-smallScreens {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
-.header-right-smallScreens h3 {
-    padding: 0 10px;
+.header-right-smallScreens i {
+    font-size: 24px;
+    /* margin-right: 25px; */
+    padding-right: 30px;
 }
 
 /* MAIN */
@@ -87,10 +93,14 @@ div#introduction-actions {
 div#introduction-actions {
     margin-bottom: 100px;
 }
+div#introduction-actions span{
+    margin-left: 10px;
+    /* display: inline-block; */
+    /* transform: scaleX(1.2) scaley(0.6);  */
+}
 
 
 /* .IMPACTO */
-
 .impacto-background-black {
     color: var(--color-blanco);
     background-color: var(--color-negro);
@@ -141,20 +151,71 @@ div#introduction-actions {
     display: none;
 }
 
-/* .PROGRAMAS */
 
-.programs {
-    margin: 50px 0;
+/* .PROGRAMAS  && .CAPACITACIONES */
+
+.programs, .capacitations {
+    margin: 20px 10px;
     padding: 20px;
 }
 
+    /* caja 2 */
+.xacademy-program-image img, .capacitations-box1 img {
+    border-radius: 0 35px 35px 35px;
+    margin-bottom: 15px;
+}
 
+.capacitations-box4 img {
+    border-radius: 35px 35px 0 35px;
+    margin-bottom: 15px;
+}
 
+.programs-box2-img-container {
+    padding: 0 40px;
+}
+.programs-box2-img-container p, .capacitations-box2 p, .capacitations-box3 p {
+    line-height: 21px;
+}
 
+    /* caja 3 */
+.programs-box3, .capacitations-box2, .capacitations-box3 {
+    margin: 40px 0 20px 0;
+    padding: 0 40px;
+}
 
-/* .CAPACITACIONES */
+.programs-box3 h4, .capacitations-box2 h4, .capacitations-box3 h4 {
+    font-size: 21px;
+    width: 80%;
+}
+
+    /* caja 4 */
+.programs-box4 img {
+    border-radius: 0 0 0 35px;
+}
+
 
 /* .EQUIPO */
+
+.circle-icon {
+    display: inline-block;
+    width: 25px; 
+    height: 25px; 
+    border-radius: 50%;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 30px; 
+  }
+  
+  .circle-icon i {
+    color: #000; 
+    font-size: 15px;
+  }
+
+
+
+
+
+
 
 /* .ALIANZAS */
 
@@ -190,5 +251,4 @@ div#introduction-actions {
     color: var(--color-blanco);
     font-size: 16px;
     font-weight: 800;
-
 }
