@@ -225,7 +225,7 @@ div#introduction-actions span{
     border-radius: 50%;
     border: 2px solid #000;
     text-align: center;
-    line-height: 30px; 
+    line-height: 25px; 
 }
   
 .circle-icon i {
@@ -402,7 +402,7 @@ div#introduction-actions span{
 
     /* PROGRAMAS */
 
-    .programs-title, .capacitations-title {
+    .programs-title, .capacitations-title, .equipo-title {
         padding: 40px 0 0 40px;
         margin-bottom: 0;
     }
@@ -455,8 +455,52 @@ div#introduction-actions span{
         width: 90%;
     }
 
-    .capacitations-box2 {
+
+    /* .EQUIPO */
+
+    .equipo-first-row, .equipo-second-row {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);;
+        gap: 18px;
     }
+
+    .equipo-box{
+        min-height: 180px;
+    }
+    
+    .equipo-box-data{
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .equipo-box-data h5 {
+        font-size: 17px;
+    }
+    
+    .equipo-box-data p {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    /* .ALIANZAS */
+
+.dont-show-in-mobile{
+    display: inline;
+}
+
+.arrow, .arrow-violet {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    background-color: var(--color-gris);
+}
+
+
+    /* .FOOTER */
 
 
 
