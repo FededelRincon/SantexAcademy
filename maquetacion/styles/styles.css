@@ -307,6 +307,7 @@ div#introduction-actions span{
     flex-direction: column;
     margin: 15px 20px 15px 30px;
 }
+
 .link {
     text-decoration: none;
     color: var(--color-blanco);
@@ -487,27 +488,41 @@ div#introduction-actions span{
 
     /* .ALIANZAS */
 
-.dont-show-in-mobile{
-    display: inline;
-}
+    .dont-show-in-mobile{
+        display: inline;
+    }
 
-.arrow, .arrow-violet {
-    width: 50px;
-    height: 30px;
-    line-height: 30px;
-    font-size: 12px;
-    background-color: var(--color-gris);
-}
+    .arrow, .arrow-violet {
+        width: 50px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        background-color: var(--color-gris);
+    }
 
 
     /* .FOOTER */
+    .footer-container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .footer-icon {
+        width: 180px;
+    }
 
+    .footer-text {
+        width: 250px;
+        max-width: 250px;
+    }
+
+    .footer-small-container:last-of-type{
+        width: 200px;
+    }
+
+    .link {
+        font-size: 14px;
+    }
 
 }
-
-/* @media screen and (min-width: 1024px) {
-    body {
-        background-color: red;
-    }
-} */
