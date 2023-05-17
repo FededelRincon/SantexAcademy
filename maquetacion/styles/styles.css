@@ -353,9 +353,13 @@ div#introduction-actions span{
     }
 
     /* MAIN */
+    #introduction{
+        padding: 80px 60px 10px 60px;
+    }
+
     #introduction-text{
         text-align: center;
-        padding: 80px 60px 10px 60px;
+        padding: 60px 60px 10px 60px;
     }
 
     #introduction-text{
@@ -368,10 +372,16 @@ div#introduction-actions span{
     .impacto-background-black{
         display: flex;
         justify-content: center;
+        padding: 80px 0 120px 0;
     }
     
     .impacto-first-part{
         width: 33%;
+    }
+
+    .impacto-text {
+        font-size: 14px;
+        width: 70%;
     }
 
     .impacto-second-part{
