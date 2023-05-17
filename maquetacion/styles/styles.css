@@ -10,7 +10,7 @@
 /* genericos */
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
 button.redondo {
@@ -402,12 +402,12 @@ div#introduction-actions span{
 
     /* PROGRAMAS */
 
-    .programs-title{
+    .programs-title, .capacitations-title {
         padding: 40px 0 0 40px;
         margin-bottom: 0;
     }
 
-    .programs {
+    .programs, .capacitations {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -443,6 +443,23 @@ div#introduction-actions span{
     .programs-box3 h4 {
         width: 100%;
     }
+
+    /* CAPACITACIONES */
+
+    .capacitations-box1 {
+        margin: 30px 0 0 0 ;
+    }
+
+    .capacitations-box2 p, .capacitations-box3 p {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .capacitations-box2 {
+    }
+
+
+
 }
 
 /* @media screen and (min-width: 1024px) {
